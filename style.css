@@ -3,6 +3,8 @@
     max-width: 1600px;
     margin: 0 auto;
     font-family: 'Helvetica Neue', Arial, sans-serif;
+    
+    
   }
   
   .header {
@@ -14,8 +16,10 @@
     align-items: flex-start;
     padding: 40px;
     position: relative;
-    background-color: #f7f2f2;
+    background-color: #f2f2f2;
     margin-bottom: 100px;
+    border: 1px solid #ccc;
+    
   }
   
   .logo {
@@ -58,7 +62,7 @@
 }
   
   .sub-title a {
-    color: #2780ed;
+    color: #2f80ed;
     text-decoration: none;
   }
   
@@ -79,24 +83,28 @@
     padding: 0;
     position: absolute;
     right: 0;
-    top: 64px;  /* Сдвигает квадрат под hero-img */
+    top: 64px;  
     height: 568px;
     width: 568px;
-    background-color: blue;
+    background-color: #2f80ed;
     z-index: 1; /* Обеспечивает нахождение синего квадрата под изображением */
     margin-top: 64px;
   }
 
   .content {
-    width: 80%;
+    border: 1px solid #ccc;
     margin: 0 auto;
+    max-width: 1600px;
+    
   }
   
   .description {
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 100px;
+    width: 80%;
   }
   
   .description-brief {
@@ -108,11 +116,13 @@
     font-size: 18px;
     line-height: 1.2;
     font-weight: normal;
+    color: #2f80ed;
+    text-decoration: none;
     
   }
   
   .description-main {
-    width: calc(100% - 195px); /* Учет ширины и отступов первой колонки */
+    width: calc(100% - 195px); 
   }
   .description-main p {
     margin-top: 0;
@@ -133,4 +143,285 @@
     margin-bottom: 30px;
   }
   
- 
+  .digits {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    max-width: 1600px;
+    text-align: center;
+    margin-top: 100px;
+    
+  }
+  
+  .section-title {
+    margin: 0;
+    font-size: 60px;
+    line-height: 1.15;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .section-subtitle {
+   
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    text-align: center;
+    
+  }
+  
+  .table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+  }
+  
+  .table-cell {
+    width: 250px;
+    margin-top: 60px;
+    
+  }
+  
+  .table-heading {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.15;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .table-text {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: normal;
+    text-align: left;
+  }
+  
+  .table-source {
+    font-size: 18px;
+    line-height: 1.15;
+    font-weight: normal;
+    margin-top: 20px;
+    text-align: left;
+    
+  }
+
+  .feynman {
+    position: relative;
+    height: 890px;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+  .feynman_image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 867px;
+    height: 637px;
+    z-index: 2;
+  }
+  
+  .feynman_title {
+    
+    width: 648px;
+    font-size: 120px;
+    font-weight: 600;
+    color: #000;
+    z-index: 3;
+    margin: 0;
+    line-height: 1.15;
+    margin-top: 100px;
+    
+  }
+  
+  .feynman_subtitle {
+    font-size: 36px;
+    z-index: 3;
+    margin: 0;
+    margin-top: 70px;
+    font-weight: normal;
+    line-height: 51px;
+  }
+  
+  .feynman_link {
+    position: absolute;
+    font-size: 36px;
+    z-index: 3;
+    margin: 0;
+    top: 50%;
+    right: 48px;
+    font-weight: normal;
+    line-height: 51px;
+    color: #2f80ed;
+    text-decoration: none;
+  }
+  
+  .kaufman {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    max-width: 1600px;
+    text-align: center;
+    background-color: #1f1f1f;
+    overflow: hidden; 
+    position: relative; 
+}
+  
+  .section-title--dark {
+    margin-top: 90px;
+    color: #f2f2f2;
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: 600;
+  }
+
+  .table-cell--dark {
+    margin-top: 40px;
+    width: 200px;
+    
+  }
+
+  .table-heading--dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  color: #f2f2f2;
+  z-index: 3;
+  position: relative;
+  }
+
+  .table-text--dark {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    color: #f2f2f2;
+    z-index: 3;
+    position: relative;
+  }
+
+  .section-subtitle--dark {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    color:#f2f2f2;
+
+  }
+
+  .table--dark {
+    margin-bottom: 90px;
+    z-index: 3; 
+  }
+
+  .kaufman-triangle {
+    width: 877px;
+    height: 877px;
+    position: absolute;
+    right: -210px;
+    z-index: 2; 
+  }
+
+  .footer {
+    background-color: #1f1f1f;
+    color: #f2f2f2;
+    min-height: 350px;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 711px;
+    
+}
+
+.footer__columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Чтобы элементы выровнялись по верхнему краю */
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    margin-top: 60px;
+}
+
+.footer__column--logo {
+    flex-basis: 711px;
+    margin-top: 60px;
+}
+
+.footer__logo {
+    max-width: 228px;
+    max-height: 32px;
+}
+
+.footer__author {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+    margin-top: auto; 
+    margin-top: 150px;
+}
+
+.footer__column-heading {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.footer__column-links, .footer__social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: normal;
+    margin-bottom: ;
+}
+
+.footer__column-link {
+    font-size: 18px;
+    line-height: 30px;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.footer__column-link:hover {
+    text-decoration: underline;
+}
+
+.footer__social-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__social-icons li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__social-icons img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
