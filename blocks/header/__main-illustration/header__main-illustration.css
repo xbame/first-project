@@ -1,0 +1,6 @@
+.header__main-illustration {
+    position: absolute;
+    right: 0;
+    top: 230px;
+    z-index: 2; 
+}
