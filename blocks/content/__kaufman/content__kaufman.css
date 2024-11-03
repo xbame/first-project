@@ -1,0 +1,9 @@
+.content__kaufman {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    max-width: 1600px;
+    text-align: center;
+    background-color: #1f1f1f;
+    overflow: hidden; 
+    position: relative; 
+  }

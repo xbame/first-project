@@ -1,0 +1,7 @@
+.content__khan {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    width: 1600px;
+    margin: 0 auto;
+  }
