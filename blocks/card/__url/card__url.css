@@ -1,0 +1,16 @@
+.card__url {
+  margin: 0;
+  color: #aaa;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 2px;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width:1024px) {
+  .card__url {
+    line-height: 1.7;
+  }
+}
