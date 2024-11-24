@@ -1,8 +1,0 @@
-.techniques__cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 100px;
-    max-width: 1100px;
-    margin: 0 auto;
-    justify-items: center;
-  }
